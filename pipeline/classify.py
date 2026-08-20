@@ -24,12 +24,12 @@ def run() -> int:
     cfg = load_config()
     CLASSIFIED_DIR.mkdir(parents=True, exist_ok=True)
     n = 0
-    with open(CLASSIFIED_PATH, "w") as out:
+    with open(CLASSIFIED_PATH, "w", encoding="utf-8") as out:
         for app in cfg["apps"]:
             raw_path = RAW_DIR / f"{app['key']}.ndjson"
             if not raw_path.exists():
                 continue
-            with open(raw_path) as f:
+            with open(raw_path, encoding="utf-8") as f:
                 for line in f:
                     line = line.strip()
                     if not line:

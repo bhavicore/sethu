@@ -48,7 +48,7 @@ class Review:
 
 
 def load_config() -> dict:
-    with open(CONFIG_PATH) as f:
+    with open(CONFIG_PATH, encoding="utf-8") as f:
         return yaml.safe_load(f)
 
 
@@ -156,7 +156,7 @@ def _load_existing_ids(path: Path) -> set[str]:
     if not path.exists():
         return set()
     ids = set()
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         for line in f:
             line = line.strip()
             if not line:
@@ -169,7 +169,7 @@ def append_new_reviews(app_key: str, new_reviews: Iterable[Review]) -> int:
     path = _raw_path(app_key)
     existing = _load_existing_ids(path)
     added = 0
-    with open(path, "a") as f:
+    with open(path, "a", encoding="utf-8") as f:
         for r in new_reviews:
             if r.key() in existing:
                 continue

@@ -37,7 +37,7 @@ def _sample_quote(app_key: str, category: str, n: int = 1) -> list[str]:
     quotes = []
     if not CLASSIFIED_PATH.exists():
         return quotes
-    with open(CLASSIFIED_PATH) as f:
+    with open(CLASSIFIED_PATH, encoding="utf-8") as f:
         rows = [json.loads(line) for line in f if line.strip()]
     candidates = [
         r for r in rows
@@ -55,7 +55,7 @@ def _sample_quote(app_key: str, category: str, n: int = 1) -> list[str]:
 def render(window_days: int | None = None) -> Path:
     if not SCORES_PATH.exists():
         raise SystemExit("No scores found -- run pipeline/score.py first.")
-    with open(SCORES_PATH) as f:
+    with open(SCORES_PATH, encoding="utf-8") as f:
         scores = json.load(f)
     cfg = load_config()
     target_key = scores["target_app"]
@@ -128,7 +128,7 @@ def render(window_days: int | None = None) -> Path:
     lines.append("|" + "---|" * (len(competitor_names) + 2))
     # recompute shares for display
     if CLASSIFIED_PATH.exists():
-        with open(CLASSIFIED_PATH) as f:
+        with open(CLASSIFIED_PATH, encoding="utf-8") as f:
             rows = [json.loads(l) for l in f if l.strip()]
         cutoff = generated - dt.timedelta(days=window_days)
         rows = [r for r in rows if dt.datetime.fromisoformat(r["date"]) >= cutoff]
@@ -156,9 +156,9 @@ def render(window_days: int | None = None) -> Path:
 
     BRIEFS_DIR.mkdir(parents=True, exist_ok=True)
     out_path = BRIEFS_DIR / f"{generated.strftime('%Y-%m-%d')}.md"
-    out_path.write_text("\n".join(lines))
+    out_path.write_text("\n".join(lines), encoding="utf-8")
     latest_path = BRIEFS_DIR / "latest.md"
-    latest_path.write_text("\n".join(lines))
+    latest_path.write_text("\n".join(lines), encoding="utf-8")
     print(f"brief written -> {out_path}")
     return out_path
 

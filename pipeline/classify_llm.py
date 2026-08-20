@@ -60,7 +60,7 @@ def run(n: int = 40, model: str = "claude-haiku-4-5-20251001"):
     import anthropic  # imported lazily so the rest of the pipeline never needs this dependency
 
     client = anthropic.Anthropic()
-    with open(CLASSIFIED_PATH) as f:
+    with open(CLASSIFIED_PATH, encoding="utf-8") as f:
         rows = [json.loads(line) for line in f if line.strip()]
 
     sample = [r for r in rows if r["category"] == "other_negative"][:n]
@@ -75,7 +75,7 @@ def run(n: int = 40, model: str = "claude-haiku-4-5-20251001"):
 
     out = {"sampled": len(sample), "disagreements": disagreements}
     AUDIT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    with open(AUDIT_PATH, "w") as f:
+    with open(AUDIT_PATH, "w", encoding="utf-8") as f:
         json.dump(out, f, indent=2)
     print(f"audited {len(sample)} reviews, {len(disagreements)} disagreements -> {AUDIT_PATH}")
 

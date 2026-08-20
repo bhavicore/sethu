@@ -45,7 +45,7 @@ RECENCY_HALFLIFE_DAYS = 14
 def _load_reviews() -> list[dict]:
     if not CLASSIFIED_PATH.exists():
         return []
-    with open(CLASSIFIED_PATH) as f:
+    with open(CLASSIFIED_PATH, encoding="utf-8") as f:
         return [json.loads(line) for line in f if line.strip()]
 
 
@@ -140,7 +140,7 @@ def score(window_days: int | None = None) -> dict:
         "ranking": results,
     }
     SCORES_PATH.parent.mkdir(parents=True, exist_ok=True)
-    with open(SCORES_PATH, "w") as f:
+    with open(SCORES_PATH, "w", encoding="utf-8") as f:
         json.dump(out, f, indent=2)
     print(f"scored {len(RANKED_CATEGORIES)} categories -> {SCORES_PATH}")
     return out
