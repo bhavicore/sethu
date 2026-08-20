@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-20T18:57:21.726223+00:00",
+  "generated_at": "2026-08-20T19:17:17.274154+00:00",
   "window_days": 90,
   "target_app": "hitwicket",
-  "target_reviews_in_window": 3663,
+  "target_reviews_in_window": 3662,
   "competitor_reviews_in_window": {
     "tennis_clash": 1957,
-    "baseball_clash": 984
+    "baseball_clash": 983
   },
   "weights": {
     "volume": 0.3,
@@ -18,7 +18,7 @@
     {
       "category": "other_negative",
       "owner": "Needs manual triage",
-      "priority_score": 0.7889,
+      "priority_score": 0.789,
       "volume": 510,
       "avg_rating_in_category": 1.41,
       "wow_trend_pct": 46.7,
@@ -27,7 +27,7 @@
     {
       "category": "bug_crash",
       "owner": "Engineering / QA",
-      "priority_score": 0.492,
+      "priority_score": 0.4925,
       "volume": 170,
       "avg_rating_in_category": 1.89,
       "wow_trend_pct": 83.3,
@@ -45,7 +45,7 @@
     {
       "category": "monetization",
       "owner": "Product + Economy design",
-      "priority_score": 0.4487,
+      "priority_score": 0.4493,
       "volume": 145,
       "avg_rating_in_category": 2.38,
       "wow_trend_pct": 216.7,
@@ -54,7 +54,7 @@
     {
       "category": "account_support",
       "owner": "Player Ops / CS",
-      "priority_score": 0.4403,
+      "priority_score": 0.441,
       "volume": 36,
       "avg_rating_in_category": 1.89,
       "wow_trend_pct": -40.0,
@@ -63,7 +63,7 @@
     {
       "category": "onboarding_ux",
       "owner": "Product design / UX",
-      "priority_score": 0.418,
+      "priority_score": 0.4185,
       "volume": 5,
       "avg_rating_in_category": 1.0,
       "wow_trend_pct": -100.0,
@@ -72,7 +72,7 @@
     {
       "category": "content_feature_request",
       "owner": "Product (roadmap)",
-      "priority_score": 0.3632,
+      "priority_score": 0.3635,
       "volume": 74,
       "avg_rating_in_category": 3.96,
       "wow_trend_pct": 350.0,
@@ -81,7 +81,7 @@
     {
       "category": "performance",
       "owner": "Engineering (perf)",
-      "priority_score": 0.2986,
+      "priority_score": 0.2987,
       "volume": 54,
       "avg_rating_in_category": 2.41,
       "wow_trend_pct": 50.0,
