@@ -1,0 +1,91 @@
+{
+  "generated_at": "2026-08-19T20:17:19.063944+00:00",
+  "window_days": 90,
+  "target_app": "hitwicket",
+  "target_reviews_in_window": 57,
+  "competitor_reviews_in_window": {
+    "tennis_clash": 43,
+    "baseball_clash": 34
+  },
+  "weights": {
+    "volume": 0.3,
+    "severity": 0.25,
+    "recency": 0.15,
+    "trend": 0.15,
+    "gap": 0.15
+  },
+  "ranking": [
+    {
+      "category": "gameplay_balance",
+      "owner": "Game design",
+      "priority_score": 0.8679,
+      "volume": 10,
+      "avg_rating_in_category": 2.0,
+      "wow_trend_pct": 150.0,
+      "hitwicket_vs_competitor_gap_pp": 11.1
+    },
+    {
+      "category": "bug_crash",
+      "owner": "Engineering / QA",
+      "priority_score": 0.8492,
+      "volume": 8,
+      "avg_rating_in_category": 1.12,
+      "wow_trend_pct": 200.0,
+      "hitwicket_vs_competitor_gap_pp": 4.7
+    },
+    {
+      "category": "monetization",
+      "owner": "Product + Economy design",
+      "priority_score": 0.4294,
+      "volume": 6,
+      "avg_rating_in_category": 1.33,
+      "wow_trend_pct": 0.0,
+      "hitwicket_vs_competitor_gap_pp": -6.1
+    },
+    {
+      "category": "account_support",
+      "owner": "Player Ops / CS",
+      "priority_score": 0.3819,
+      "volume": 4,
+      "avg_rating_in_category": 1.75,
+      "wow_trend_pct": -100.0,
+      "hitwicket_vs_competitor_gap_pp": 0.6
+    },
+    {
+      "category": "content_feature_request",
+      "owner": "Product (roadmap)",
+      "priority_score": 0.3658,
+      "volume": 6,
+      "avg_rating_in_category": 3.17,
+      "wow_trend_pct": 100.0,
+      "hitwicket_vs_competitor_gap_pp": 1.5
+    },
+    {
+      "category": "performance",
+      "owner": "Engineering (perf)",
+      "priority_score": 0.3173,
+      "volume": 5,
+      "avg_rating_in_category": 2.4,
+      "wow_trend_pct": 0.0,
+      "hitwicket_vs_competitor_gap_pp": -0.6
+    },
+    {
+      "category": "other_negative",
+      "owner": "Needs manual triage",
+      "priority_score": 0.2053,
+      "volume": 3,
+      "avg_rating_in_category": 2.33,
+      "wow_trend_pct": 0.0,
+      "hitwicket_vs_competitor_gap_pp": -0.0
+    },
+    {
+      "category": "onboarding_ux",
+      "owner": "Product design / UX",
+      "priority_score": 0.1753,
+      "volume": 3,
+      "avg_rating_in_category": 2.67,
+      "wow_trend_pct": -100.0,
+      "hitwicket_vs_competitor_gap_pp": -0.0
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+# App identifiers for the review pipeline.
+# Competitors chosen to match the brief's own non-AI track (Task 2, Option 2):
+# Tennis Clash and Baseball Clash are the closest genre analogues to Hitwicket
+# (mobile sports strategy/management games competing for the same attention).
+
+apps:
+  - key: hitwicket
+    name: "Hitwicket Cricket Game 2026"
+    is_target: true
+    play_id: "cricketgames.hitwicket.strategy"
+    appstore_id: "1498437026"
+
+  - key: tennis_clash
+    name: "Tennis Clash: Multiplayer Game"
+    is_target: false
+    play_id: "com.tfgco.games.sports.free.tennis.clash"
+    appstore_id: "1346179411"
+
+  - key: baseball_clash
+    name: "Baseball Clash: Real-time game"
+    is_target: false
+    play_id: "com.neowiz.game.baseball.clash"
+    appstore_id: "1491129492"
+
+# Countries pulled for Play Store scraping. Hitwicket's core market is India;
+# 'us' is added for broader English-language coverage and to make the
+# competitor comparison less India-skewed than Hitwicket alone.
+play_countries: ["in", "us"]
+
+# Countries pulled from the Apple RSS review feed (same rationale).
+appstore_countries: ["in", "us"]
+
+window_days: 90
