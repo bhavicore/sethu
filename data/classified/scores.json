@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-24T03:43:48.992311+00:00",
+  "generated_at": "2026-08-31T09:01:13.573614+00:00",
   "window_days": 90,
   "target_app": "hitwicket",
-  "target_reviews_in_window": 3637,
+  "target_reviews_in_window": 3547,
   "competitor_reviews_in_window": {
-    "tennis_clash": 1942,
-    "baseball_clash": 962
+    "tennis_clash": 1910,
+    "baseball_clash": 890
   },
   "weights": {
     "volume": 0.3,
@@ -18,73 +18,73 @@
     {
       "category": "other_negative",
       "owner": "Needs manual triage",
-      "priority_score": 0.7843,
-      "volume": 515,
-      "avg_rating_in_category": 1.42,
-      "wow_trend_pct": 5.4,
-      "hitwicket_vs_competitor_gap_pp": 3.4
+      "priority_score": 0.7874,
+      "volume": 499,
+      "avg_rating_in_category": 1.41,
+      "wow_trend_pct": -17.9,
+      "hitwicket_vs_competitor_gap_pp": 3.2
     },
     {
-      "category": "bug_crash",
-      "owner": "Engineering / QA",
-      "priority_score": 0.5216,
-      "volume": 169,
-      "avg_rating_in_category": 1.92,
-      "wow_trend_pct": 100.0,
-      "hitwicket_vs_competitor_gap_pp": -1.8
+      "category": "account_support",
+      "owner": "Player Ops / CS",
+      "priority_score": 0.5834,
+      "volume": 39,
+      "avg_rating_in_category": 1.9,
+      "wow_trend_pct": 300.0,
+      "hitwicket_vs_competitor_gap_pp": 0.3
     },
     {
       "category": "gameplay_balance",
       "owner": "Game design",
-      "priority_score": 0.4917,
+      "priority_score": 0.4541,
       "volume": 109,
-      "avg_rating_in_category": 1.64,
-      "wow_trend_pct": -9.1,
+      "avg_rating_in_category": 1.59,
+      "wow_trend_pct": -40.0,
       "hitwicket_vs_competitor_gap_pp": -2.4
+    },
+    {
+      "category": "bug_crash",
+      "owner": "Engineering / QA",
+      "priority_score": 0.443,
+      "volume": 171,
+      "avg_rating_in_category": 1.91,
+      "wow_trend_pct": -52.2,
+      "hitwicket_vs_competitor_gap_pp": -1.8
+    },
+    {
+      "category": "onboarding_ux",
+      "owner": "Product design / UX",
+      "priority_score": 0.3932,
+      "volume": 4,
+      "avg_rating_in_category": 1.0,
+      "wow_trend_pct": 0.0,
+      "hitwicket_vs_competitor_gap_pp": -0.5
     },
     {
       "category": "monetization",
       "owner": "Product + Economy design",
-      "priority_score": 0.4199,
+      "priority_score": 0.3715,
       "volume": 144,
-      "avg_rating_in_category": 2.3,
-      "wow_trend_pct": -6.7,
+      "avg_rating_in_category": 2.35,
+      "wow_trend_pct": -46.7,
       "hitwicket_vs_competitor_gap_pp": -4.0
     },
     {
       "category": "performance",
       "owner": "Engineering (perf)",
-      "priority_score": 0.3888,
-      "volume": 53,
-      "avg_rating_in_category": 2.42,
-      "wow_trend_pct": 150.0,
-      "hitwicket_vs_competitor_gap_pp": 0.1
-    },
-    {
-      "category": "account_support",
-      "owner": "Player Ops / CS",
-      "priority_score": 0.3752,
-      "volume": 35,
-      "avg_rating_in_category": 1.89,
-      "wow_trend_pct": -83.3,
-      "hitwicket_vs_competitor_gap_pp": 0.1
-    },
-    {
-      "category": "onboarding_ux",
-      "owner": "Product design / UX",
-      "priority_score": 0.3348,
-      "volume": 5,
-      "avg_rating_in_category": 1.0,
+      "priority_score": 0.2398,
+      "volume": 48,
+      "avg_rating_in_category": 2.4,
       "wow_trend_pct": -100.0,
-      "hitwicket_vs_competitor_gap_pp": -0.5
+      "hitwicket_vs_competitor_gap_pp": -0.0
     },
     {
       "category": "content_feature_request",
       "owner": "Product (roadmap)",
-      "priority_score": 0.2298,
+      "priority_score": 0.2093,
       "volume": 72,
-      "avg_rating_in_category": 3.89,
-      "wow_trend_pct": -28.6,
+      "avg_rating_in_category": 3.92,
+      "wow_trend_pct": -40.0,
       "hitwicket_vs_competitor_gap_pp": 0.1
     }
   ]
