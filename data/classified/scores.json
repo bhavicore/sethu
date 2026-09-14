@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-07T07:38:43.163571+00:00",
+  "generated_at": "2026-09-14T08:13:55.859807+00:00",
   "window_days": 90,
   "target_app": "hitwicket",
-  "target_reviews_in_window": 3433,
+  "target_reviews_in_window": 3219,
   "competitor_reviews_in_window": {
-    "tennis_clash": 1904,
-    "baseball_clash": 890
+    "tennis_clash": 1856,
+    "baseball_clash": 861
   },
   "weights": {
     "volume": 0.3,
@@ -18,74 +18,74 @@
     {
       "category": "other_negative",
       "owner": "Needs manual triage",
-      "priority_score": 0.827,
-      "volume": 496,
+      "priority_score": 0.8629,
+      "volume": 490,
       "avg_rating_in_category": 1.41,
-      "wow_trend_pct": -8.3,
-      "hitwicket_vs_competitor_gap_pp": 3.6
-    },
-    {
-      "category": "onboarding_ux",
-      "owner": "Product design / UX",
-      "priority_score": 0.5601,
-      "volume": 5,
-      "avg_rating_in_category": 1.4,
-      "wow_trend_pct": 100.0,
-      "hitwicket_vs_competitor_gap_pp": -0.5
-    },
-    {
-      "category": "bug_crash",
-      "owner": "Engineering / QA",
-      "priority_score": 0.5104,
-      "volume": 179,
-      "avg_rating_in_category": 1.97,
-      "wow_trend_pct": 7.1,
-      "hitwicket_vs_competitor_gap_pp": -1.4
-    },
-    {
-      "category": "gameplay_balance",
-      "owner": "Game design",
-      "priority_score": 0.4964,
-      "volume": 109,
-      "avg_rating_in_category": 1.65,
-      "wow_trend_pct": 33.3,
-      "hitwicket_vs_competitor_gap_pp": -2.5
-    },
-    {
-      "category": "monetization",
-      "owner": "Product + Economy design",
-      "priority_score": 0.4754,
-      "volume": 153,
-      "avg_rating_in_category": 2.32,
-      "wow_trend_pct": 87.5,
-      "hitwicket_vs_competitor_gap_pp": -3.5
-    },
-    {
-      "category": "performance",
-      "owner": "Engineering (perf)",
-      "priority_score": 0.4034,
-      "volume": 43,
-      "avg_rating_in_category": 2.28,
-      "wow_trend_pct": 200.0,
-      "hitwicket_vs_competitor_gap_pp": -0.3
+      "wow_trend_pct": -48.7,
+      "hitwicket_vs_competitor_gap_pp": 4.4
     },
     {
       "category": "account_support",
       "owner": "Player Ops / CS",
-      "priority_score": 0.3866,
-      "volume": 38,
-      "avg_rating_in_category": 1.82,
-      "wow_trend_pct": -80.0,
-      "hitwicket_vs_competitor_gap_pp": 0.2
+      "priority_score": 0.6014,
+      "volume": 40,
+      "avg_rating_in_category": 1.85,
+      "wow_trend_pct": 0.0,
+      "hitwicket_vs_competitor_gap_pp": 0.5
+    },
+    {
+      "category": "gameplay_balance",
+      "owner": "Game design",
+      "priority_score": 0.5196,
+      "volume": 110,
+      "avg_rating_in_category": 1.63,
+      "wow_trend_pct": -37.5,
+      "hitwicket_vs_competitor_gap_pp": -2.2
+    },
+    {
+      "category": "bug_crash",
+      "owner": "Engineering / QA",
+      "priority_score": 0.4915,
+      "volume": 177,
+      "avg_rating_in_category": 1.95,
+      "wow_trend_pct": -73.7,
+      "hitwicket_vs_competitor_gap_pp": -1.1
+    },
+    {
+      "category": "monetization",
+      "owner": "Product + Economy design",
+      "priority_score": 0.3781,
+      "volume": 144,
+      "avg_rating_in_category": 2.25,
+      "wow_trend_pct": -81.2,
+      "hitwicket_vs_competitor_gap_pp": -3.7
+    },
+    {
+      "category": "onboarding_ux",
+      "owner": "Product design / UX",
+      "priority_score": 0.3706,
+      "volume": 5,
+      "avg_rating_in_category": 1.4,
+      "wow_trend_pct": -100.0,
+      "hitwicket_vs_competitor_gap_pp": -0.4
+    },
+    {
+      "category": "performance",
+      "owner": "Engineering (perf)",
+      "priority_score": 0.3154,
+      "volume": 37,
+      "avg_rating_in_category": 2.24,
+      "wow_trend_pct": -50.0,
+      "hitwicket_vs_competitor_gap_pp": -0.5
     },
     {
       "category": "content_feature_request",
       "owner": "Product (roadmap)",
-      "priority_score": 0.3268,
-      "volume": 75,
-      "avg_rating_in_category": 3.91,
-      "wow_trend_pct": 100.0,
-      "hitwicket_vs_competitor_gap_pp": 0.3
+      "priority_score": 0.2933,
+      "volume": 70,
+      "avg_rating_in_category": 3.76,
+      "wow_trend_pct": -66.7,
+      "hitwicket_vs_competitor_gap_pp": 0.6
     }
   ]
 }
