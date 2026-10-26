@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-19T08:13:31.864303+00:00",
+  "generated_at": "2026-10-26T08:14:07.529830+00:00",
   "window_days": 90,
   "target_app": "hitwicket",
-  "target_reviews_in_window": 2708,
+  "target_reviews_in_window": 2706,
   "competitor_reviews_in_window": {
-    "tennis_clash": 1559,
-    "baseball_clash": 644
+    "tennis_clash": 1465,
+    "baseball_clash": 652
   },
   "weights": {
     "volume": 0.3,
@@ -18,74 +18,74 @@
     {
       "category": "other_negative",
       "owner": "Needs manual triage",
-      "priority_score": 0.8921,
-      "volume": 414,
-      "avg_rating_in_category": 1.39,
-      "wow_trend_pct": -26.1,
-      "hitwicket_vs_competitor_gap_pp": 4.4
-    },
-    {
-      "category": "account_support",
-      "owner": "Player Ops / CS",
-      "priority_score": 0.6122,
-      "volume": 39,
-      "avg_rating_in_category": 1.69,
-      "wow_trend_pct": 0.0,
-      "hitwicket_vs_competitor_gap_pp": 0.6
+      "priority_score": 0.8312,
+      "volume": 419,
+      "avg_rating_in_category": 1.41,
+      "wow_trend_pct": 9.1,
+      "hitwicket_vs_competitor_gap_pp": 4.1
     },
     {
       "category": "gameplay_balance",
       "owner": "Game design",
-      "priority_score": 0.605,
-      "volume": 139,
-      "avg_rating_in_category": 1.71,
-      "wow_trend_pct": -27.3,
-      "hitwicket_vs_competitor_gap_pp": -0.5
+      "priority_score": 0.524,
+      "volume": 142,
+      "avg_rating_in_category": 1.79,
+      "wow_trend_pct": -10.0,
+      "hitwicket_vs_competitor_gap_pp": -0.7
+    },
+    {
+      "category": "account_support",
+      "owner": "Player Ops / CS",
+      "priority_score": 0.4921,
+      "volume": 39,
+      "avg_rating_in_category": 1.82,
+      "wow_trend_pct": 0.0,
+      "hitwicket_vs_competitor_gap_pp": 0.6
     },
     {
       "category": "monetization",
       "owner": "Product + Economy design",
-      "priority_score": 0.4725,
-      "volume": 144,
-      "avg_rating_in_category": 2.08,
-      "wow_trend_pct": -25.0,
-      "hitwicket_vs_competitor_gap_pp": -2.5
-    },
-    {
-      "category": "onboarding_ux",
-      "owner": "Product design / UX",
-      "priority_score": 0.4228,
-      "volume": 5,
-      "avg_rating_in_category": 2.2,
-      "wow_trend_pct": 0.0,
-      "hitwicket_vs_competitor_gap_pp": -0.4
-    },
-    {
-      "category": "bug_crash",
-      "owner": "Engineering / QA",
-      "priority_score": 0.4186,
-      "volume": 121,
-      "avg_rating_in_category": 1.97,
-      "wow_trend_pct": -42.9,
-      "hitwicket_vs_competitor_gap_pp": -1.6
+      "priority_score": 0.435,
+      "volume": 141,
+      "avg_rating_in_category": 2.11,
+      "wow_trend_pct": 66.7,
+      "hitwicket_vs_competitor_gap_pp": -2.8
     },
     {
       "category": "performance",
       "owner": "Engineering (perf)",
-      "priority_score": 0.229,
-      "volume": 23,
-      "avg_rating_in_category": 2.04,
-      "wow_trend_pct": -100.0,
+      "priority_score": 0.3274,
+      "volume": 20,
+      "avg_rating_in_category": 2.15,
+      "wow_trend_pct": 100.0,
       "hitwicket_vs_competitor_gap_pp": -1.0
     },
     {
       "category": "content_feature_request",
       "owner": "Product (roadmap)",
-      "priority_score": 0.1477,
-      "volume": 60,
-      "avg_rating_in_category": 3.83,
-      "wow_trend_pct": -100.0,
+      "priority_score": 0.315,
+      "volume": 58,
+      "avg_rating_in_category": 3.78,
+      "wow_trend_pct": 300.0,
       "hitwicket_vs_competitor_gap_pp": 1.0
+    },
+    {
+      "category": "bug_crash",
+      "owner": "Engineering / QA",
+      "priority_score": 0.3011,
+      "volume": 114,
+      "avg_rating_in_category": 1.96,
+      "wow_trend_pct": -100.0,
+      "hitwicket_vs_competitor_gap_pp": -1.4
+    },
+    {
+      "category": "onboarding_ux",
+      "owner": "Product design / UX",
+      "priority_score": 0.2643,
+      "volume": 5,
+      "avg_rating_in_category": 2.2,
+      "wow_trend_pct": 0.0,
+      "hitwicket_vs_competitor_gap_pp": -0.4
     }
   ]
 }
