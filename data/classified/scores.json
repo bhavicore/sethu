@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-02T10:13:42.685431+00:00",
+  "generated_at": "2026-11-09T10:33:49.632055+00:00",
   "window_days": 90,
   "target_app": "hitwicket",
-  "target_reviews_in_window": 2656,
+  "target_reviews_in_window": 2545,
   "competitor_reviews_in_window": {
-    "tennis_clash": 1438,
-    "baseball_clash": 606
+    "tennis_clash": 1383,
+    "baseball_clash": 586
   },
   "weights": {
     "volume": 0.3,
@@ -18,74 +18,74 @@
     {
       "category": "other_negative",
       "owner": "Needs manual triage",
-      "priority_score": 0.8097,
-      "volume": 388,
-      "avg_rating_in_category": 1.4,
-      "wow_trend_pct": -28.0,
-      "hitwicket_vs_competitor_gap_pp": 3.0
-    },
-    {
-      "category": "account_support",
-      "owner": "Player Ops / CS",
-      "priority_score": 0.5207,
-      "volume": 42,
-      "avg_rating_in_category": 1.74,
-      "wow_trend_pct": 0.0,
-      "hitwicket_vs_competitor_gap_pp": 0.7
-    },
-    {
-      "category": "bug_crash",
-      "owner": "Engineering / QA",
-      "priority_score": 0.5006,
-      "volume": 109,
-      "avg_rating_in_category": 1.91,
-      "wow_trend_pct": 300.0,
-      "hitwicket_vs_competitor_gap_pp": -1.0
+      "priority_score": 0.8111,
+      "volume": 374,
+      "avg_rating_in_category": 1.39,
+      "wow_trend_pct": -29.2,
+      "hitwicket_vs_competitor_gap_pp": 2.9
     },
     {
       "category": "gameplay_balance",
       "owner": "Game design",
-      "priority_score": 0.4657,
-      "volume": 134,
-      "avg_rating_in_category": 1.81,
-      "wow_trend_pct": -83.3,
-      "hitwicket_vs_competitor_gap_pp": -0.8
+      "priority_score": 0.7052,
+      "volume": 145,
+      "avg_rating_in_category": 1.73,
+      "wow_trend_pct": 350.0,
+      "hitwicket_vs_competitor_gap_pp": 0.2
     },
     {
-      "category": "performance",
-      "owner": "Engineering (perf)",
-      "priority_score": 0.4261,
-      "volume": 22,
-      "avg_rating_in_category": 2.41,
-      "wow_trend_pct": 200.0,
-      "hitwicket_vs_competitor_gap_pp": -1.0
+      "category": "account_support",
+      "owner": "Player Ops / CS",
+      "priority_score": 0.5247,
+      "volume": 43,
+      "avg_rating_in_category": 1.72,
+      "wow_trend_pct": 0.0,
+      "hitwicket_vs_competitor_gap_pp": 0.8
+    },
+    {
+      "category": "bug_crash",
+      "owner": "Engineering / QA",
+      "priority_score": 0.4008,
+      "volume": 102,
+      "avg_rating_in_category": 1.93,
+      "wow_trend_pct": 33.3,
+      "hitwicket_vs_competitor_gap_pp": -1.2
     },
     {
       "category": "monetization",
       "owner": "Product + Economy design",
-      "priority_score": 0.3885,
-      "volume": 135,
-      "avg_rating_in_category": 2.05,
-      "wow_trend_pct": -45.5,
-      "hitwicket_vs_competitor_gap_pp": -3.2
+      "priority_score": 0.3619,
+      "volume": 129,
+      "avg_rating_in_category": 2.08,
+      "wow_trend_pct": -77.8,
+      "hitwicket_vs_competitor_gap_pp": -3.3
     },
     {
-      "category": "onboarding_ux",
-      "owner": "Product design / UX",
-      "priority_score": 0.2692,
-      "volume": 5,
-      "avg_rating_in_category": 2.2,
-      "wow_trend_pct": 0.0,
-      "hitwicket_vs_competitor_gap_pp": -0.3
+      "category": "performance",
+      "owner": "Engineering (perf)",
+      "priority_score": 0.3253,
+      "volume": 21,
+      "avg_rating_in_category": 2.33,
+      "wow_trend_pct": -66.7,
+      "hitwicket_vs_competitor_gap_pp": -0.9
     },
     {
       "category": "content_feature_request",
       "owner": "Product (roadmap)",
-      "priority_score": 0.2086,
+      "priority_score": 0.2808,
       "volume": 55,
-      "avg_rating_in_category": 3.78,
-      "wow_trend_pct": -33.3,
+      "avg_rating_in_category": 3.87,
+      "wow_trend_pct": 100.0,
       "hitwicket_vs_competitor_gap_pp": 0.9
+    },
+    {
+      "category": "onboarding_ux",
+      "owner": "Product design / UX",
+      "priority_score": 0.2366,
+      "volume": 4,
+      "avg_rating_in_category": 2.5,
+      "wow_trend_pct": 0.0,
+      "hitwicket_vs_competitor_gap_pp": -0.4
     }
   ]
 }
